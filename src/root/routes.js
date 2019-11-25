@@ -7,6 +7,7 @@ import NotFound from '../Components/Error/NotFound';
 import { ConnectedRouter } from 'connected-react-router';
 import DocumentTitle from 'react-document-title';
 import { PropTypes } from 'prop-types';
+import NavBar from "../Components/HeaderComponent/NavBar";
 
 
 export const routes = [
@@ -23,13 +24,14 @@ const Routes = ({ children, component, history = appHistory }) => {
     const Component = component;
     return (
         <ConnectedRouter history={history}>
+            <NavBar/>
             <DocumentTitle title={'Panic Bros Podcast'}>
                 <Component children={children}>
-                <Switch>
-                    {routes.map(route => <Route key={route.path} path={route.path} exact component={route.component}/> )}
-                    <Route path="*" exact component={NotFound} />
-                </Switch>
-            </Component>
+                    <Switch>
+                        {routes.map(route => <Route key={route.path} path={route.path} exact component={route.component}/> )}
+                        <Route path="*" exact component={NotFound} />
+                    </Switch>
+                </Component>
             </DocumentTitle>
         </ConnectedRouter>
     );

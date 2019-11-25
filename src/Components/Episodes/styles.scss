@@ -1,0 +1,31 @@
+.episodes-Container {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+
+  .fade-box{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+  }
+
+  .background{
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  .youtube-box {
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    color: #C62513;
+  }
+}

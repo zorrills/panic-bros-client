@@ -1,6 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
+import NavBar from "../Components/HeaderComponent/NavBar";
 
-const App= ({ children }) => {
-    return React.Children.only(children);
+class App extends Component {
+    render () {
+        const { children } = this.props;
+        return (
+            React.Children.only(children)
+        )
+    }
 };
 export default App;

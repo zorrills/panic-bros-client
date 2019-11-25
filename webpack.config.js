@@ -7,23 +7,17 @@ module.exports = {
     output: {
         path: DIST_DIR,
         filename: 'bundle.js',
+        publicPath: DIST_DIR,
     },
     resolve: {
-        extensions: ['.js', '.jsx', '.json', '.css']
+        extensions: ['.js', '.jsx', '.json', '.css', '.scss']
     },
     module : {
         rules : [
             {
-                test: /\.css$/,
-                loader: 'style-loader!css-loader'
-            },
-            {
-                test: /\.png$/,
-                loader: 'url-loader?limit=100000&minetype=image/png'
-            },
-            {
-                test: /\.jpg/,
-                loader: 'file-loader'
+                test: /\.s?css$/,
+                exclude: /node-modules/,
+                use: ['style-loader', 'css-loader', 'sass-loader'],
             },
             {
                 test : /\.jsx?/,
@@ -32,7 +26,20 @@ module.exports = {
                 query: {
                     presets: ['react', 'es2015']
                 }
-            }
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    'file-loader',
+                    {
+                        loader: 'image-webpack-loader',
+                        options: {
+                            bypassOnDebug: true,
+                            disable: true,
+                        },
+                    },
+                ],
+            },
         ]
     },
     plugins: [

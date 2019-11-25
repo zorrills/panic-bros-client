@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e0e3afb-ecbb-4444-9bf5-6a79db3f1979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Episodes/Episodes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Error/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/Root.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Episodes/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HeaderComponent/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Home/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Episodes/Episodes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Episodes/Episodes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/HeaderComponent/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/HeaderComponent/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +46,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/root" />
     </key>
   </component>
@@ -71,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574551925270</updated>
-      <workItem from="1574551927067" duration="6086000" />
+      <workItem from="1574551927067" duration="13473000" />
     </task>
     <servers />
   </component>
